@@ -1,7 +1,6 @@
-import { useState } from "react";
 import Places from "./Places.jsx";
-import { useEffect } from "react";
 import Error from "./Error.jsx";
+import { useState, useEffect } from "react";
 import { sortPlacesByDistance } from "../loc.js";
 import { fetchAvailablePlaces } from "../http.js";
 
